@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cart - VelvetVanity</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+<div class="logo">Velvetvanity</div>
+<div id="notification"></div>
+<div class="nav-links">
+<a href="index.html">Products</a>
+<a href="cart.html">Cart</a>
+</div>
+</div>
+
+<h1>Your Beauty Collection</h1>
+
+<div class="cart-buttons">
+
+<button onclick="readCart()">View Selection</button>
+
+<button onclick="calculateTotal()">View Total</button>
+
+<button onclick="clearCart()">Remove Selection</button>
+
+</div>
+
+<div class="total-box">
+
+<h2 id="totalDisplay">Total Price: RM 0.00</h2>
+
+</div>
+
+<div id="cartResult"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
